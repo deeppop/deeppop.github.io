@@ -229,8 +229,8 @@ header.masthead {
 .btn-primary {
   background-color: #1A237E;
   border-color: #1A237E; }
-  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     color: #fff;
-    background-color: #ee4b28 !important; }
-  .btn-primary:active, .btn-primary:focus {
-    box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important; }
+    background-color: #1A237E !important; }
+  /*.btn-primary:active, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(51, 0, 255, 0.644) !important; } */
