@@ -238,3 +238,20 @@ header.masthead {
 #team a {
   color: #000000;
 }
+
+.ms-award {
+  background-color: rgba(46, 125, 50, 0.9);
+  color: #ffffff;
+  /* border: solid 1px #eeeeee; */
+  border-radius: 10px;
+  padding:18px;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+.ms-award:hover{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#about, #publications {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
