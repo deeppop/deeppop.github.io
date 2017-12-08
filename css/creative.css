@@ -231,6 +231,27 @@ header.masthead {
   border-color: #1A237E; }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     color: #fff;
-    background-color: #1A237E !important; }
+    background-color: #ee4b28 !important; }
   /*.btn-primary:active, .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(51, 0, 255, 0.644) !important; } */
+
+#team a {
+  color: #000000;
+}
+
+.ms-award {
+  background-color: rgba(46, 125, 50, 0.9);
+  color: #ffffff;
+  /* border: solid 1px #eeeeee; */
+  border-radius: 10px;
+  padding:18px;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+.ms-award:hover{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#about, #publications {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
