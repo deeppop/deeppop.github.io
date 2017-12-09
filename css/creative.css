@@ -9,7 +9,7 @@ html {
   height: 100%; }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
 
 hr {
   max-width: 50px;
@@ -47,6 +47,9 @@ h6 {
 
 .text-faded {
   color: rgba(255, 255, 255, 0.7); }
+
+.text-faded-2 {
+  color: rgba(255, 255, 255, 0.9); }
 
 section {
   padding: 8rem 0; }
