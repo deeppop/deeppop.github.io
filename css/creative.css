@@ -231,7 +231,7 @@ header.masthead {
   border-color: #1A237E; }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     color: #fff;
-    background-color: #ee4b28 !important; }
+    background-color: rgba(26, 36, 126, 0.75) !important; }
   /*.btn-primary:active, .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(51, 0, 255, 0.644) !important; } */
 

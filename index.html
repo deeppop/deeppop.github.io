@@ -77,9 +77,9 @@
       <div class="container">
         <div class="row">
 
-          <!-- <div class="col-lg-6 ml-auto text-center" style="background-color:white">
+          <!-- <div class="col-lg-6 ml-auto text-center">
             <a href="resources/robinson2017-deeppop.pdf" target="_blank">
-              <img src="img/figure.png" style="width: 100%;" class="mb-3 sr-contact">
+              <img src="img/class-images-website.png" style="width: 100%;" class="mb-3 sr-contact">
             </a>
           </div> -->
 
@@ -99,6 +99,12 @@
             <p class="text-faded">
                 In general, our model is an example of how machine learning techniques can be an effective tool for extracting information from inherently unstructured, remotely sensed data to provide effective solutions to social problems.
             </p>
+
+            <div>
+              <img src="img/class-images-website.png" style="width: 100%;" class="mb-3 sr-contact">
+              <b class="text-faded text-center small"> The top 8 most confident prediction images from the test set for each class, all of which are correctly classified. Notice the types of images that appear from top (highways, few people) to bottom (buildings, many people) further indicated that our deep learning model is learning semantically-relevant features from satellite imagery</b>
+            </div>
+
           </div>
         </div>
       </div>
@@ -106,18 +112,22 @@
 
     <section id="publications">
       <div class="container">
+
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading">Publications</h2>
             <hr class="my-4">
           </div>
         </div>
+
         <div class="row">
+
           <div class="col-lg-3 ml-auto text-center">
             <a href="resources/robinson2017-deeppop.pdf" target="_blank">
               <img src="img/17-deeppop-sigspatial.png" style="width:100%; border:1px solid #cccccc;" class="sr-contact">
             </a>
           </div>
+
           <div class="col-lg-8 mr-auto text-center">
             <p class="mt-5 text-left">
               <b>A Deep Learning Approach for Population Estimation from Satellite Imagery</b><br>
@@ -129,9 +139,28 @@
               <a href="resources/robinson2017-deeppop-slides.pdf" target="_blank">Slides</a> |
               <a href="resources/robinson2017-deeppop.bib" target="_blank">Bibtex</a>
             </p>
+
+            <p>
+              <a class="btn btn-primary" data-toggle="collapse" href="#paper1details" aria-expanded="false" aria-controls="paper1details">
+              More details
+              </a>  
+            </p>
           </div>
+
+          <div class="col-lg-12 text-center mt-5 collapse" id="paper1details">
+            <p>
+              In this work we train convolutional neural network models to estimate the population of 1km<sup>2</sup> patches of land using Landsat 7 satellite imagery, and population data from the US Census.
+              We focus on showing that our model's make reasonable estimations by validating them both qualitatively and quantitatively.
+            </p>
+            <div class="text-center" style="width: 50%; display:inline-block;">
+              <img src="img/figure.png" style="width: 100%;" class="mb-3 sr-contact"><br>
+              <b class="small"> The top 8 most confident prediction images from the test set for each class, all of which are correctly classified. Notice the types of images that appear from top (highways, few people) to bottom (buildings, many people) further indicated that our deep learning model is learning semantically-relevant features from satellite imagery</b>
+            </div>
+            <hr/>
+          </div>
+
         </div>
-      </div>
+      </div> <!-- End container -->
     </section>
 
     <section id="team" class="bg-secondary">
